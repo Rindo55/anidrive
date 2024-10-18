@@ -226,7 +226,7 @@ class NewDriveData:
         self.save()
 
     def search_file_folder(self, query: str):
-        root_dir = self.get_directory("/")
+        root_dir = self.get_directory("/EXV5XM")
         search_results = {}
 
         def traverse_directory(folder):
